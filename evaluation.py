@@ -48,5 +48,5 @@ def evaluate(jsonl_path):
 
     return correct/total
 
-accuracy_fa_edited = evaluate("hellaswag_val_500_fa_edited.jsonl")
+accuracy_fa_edited = evaluate("hellaswag_val_500_fa_edited.jsonl") #change files for evaluation
 print("Accuracy for FA edited:", accuracy_fa_edited)
