@@ -5,7 +5,7 @@ This repository contains Python code and datasets used in the term paper **'Cros
 ## Contents
 
 - `translation.py` – uses the DeepL API to translate `hellaswag_val_500_en.jsonl` into target languages (RU / FA) while preserving the JSONL structure.
-- `post-processing.py` – normalizes structural markers (e.g. `[header]`, `[title]`, `[step]`) in the translated files and fixes minor formatting issues.
+- `post-processing.py` – normalizes structural markers (`[header]`, `[title]`, `[step]`, `[substeps]`) in the translated files and fixes minor formatting issues.
 - `evaluation.py` – computes log-likelihood–based multiple-choice scores for each option and reports accuracy for each JSONL file.
 - `samples_hellaswag.py` – takes random 500 items from the HellaSwag dataset.
 - `hellaswag_val_500_en.jsonl` – original 500-item English validation subset
